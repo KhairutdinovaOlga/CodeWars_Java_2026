@@ -1,0 +1,22 @@
+public class TrafficLights {
+
+  public static String updateLight(String current) {
+  
+  String s = "";
+  switch (current){
+      case "green":
+          s = "yellow";
+          break;
+      
+      case "yellow":
+          s = "red";
+          break;
+          
+      case "red":
+          s = "green";
+          break;
+    }
+    return s;
+  }
+  
+}
