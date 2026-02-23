@@ -1,0 +1,13 @@
+public class rentalCarCost{
+  public static int rentalCarCost(int d) {
+   int startSum=40;
+    int total=d*startSum;
+   
+   if (d>=7){
+     total= d*startSum-50;
+     
+   } else if (d>=3){
+     total =d*startSum-20;
+   }
+    return total;
+  }
