@@ -1,0 +1,30 @@
+public class Kata
+{
+  public static String switchItUp(int number)
+  {
+  String r = "";
+  switch(number){
+  case 0:r= "Zero";
+break;
+    case 1:r= "One";
+break;
+    case 2:r= "Two";
+break;
+    case 3:r= "Three";
+break;
+      case 4:r="Four";
+break;
+      case 5:r= "Five";
+break;
+      case 6:r= "Six";
+break;
+      case 7:r= "Seven";
+break;
+      case 8:r= "Eight";
+break;
+      case 9:r= "Nine";
+break;
+  } return r;
+    
+  }
+}
