@@ -1,0 +1,10 @@
+public class DecTools {
+  public static int Digits(long n) {
+    int l = 1;
+    while(n >= 10) {
+      n /= 10;
+      l += 1;
+    }
+    return l;
+  }
+}
