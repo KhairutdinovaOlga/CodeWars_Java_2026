@@ -1,0 +1,7 @@
+public class ThirdAngle {
+    public static int otherAngle(int angle1, int angle2) {
+        int angle3=0;
+        return angle3=180-(angle1+angle2);
+        
+    }
+}
